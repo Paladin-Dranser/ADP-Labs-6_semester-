@@ -19,7 +19,7 @@ public class Practice {
         int previousNumber = 0;
         int currentNumber = 1;
 
-        for (int i = 0; i < number; i++) {
+        for (int i = 1; i <= number; i++) {
             System.out.print(String.valueOf(fibonacci(i)) + ' ');
         }
     }
