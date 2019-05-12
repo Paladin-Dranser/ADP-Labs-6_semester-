@@ -12,16 +12,19 @@ public class Practice {
     public static void main(String[] args) {
         for (int i = 1; i <= 500; i++) {
             if (i % 5 == 0 && i % 7 == 0) {
-                System.out.println("fizzbuzz");
+                System.out.print("fizzbuzz" + ' ');
             }
             else if (i % 5 == 0) {
-                System.out.println("fizz");
+                System.out.print("fizz" + ' ');
             }
             else if (i % 7 == 0) {
-                System.out.println("buzz");
+                System.out.print("buzz" + ' ');
             }
             else {
-                System.out.println(i);
+                System.out.print(String.valueOf(i) + ' ');
+            }
+            if (i % 20 == 0) {
+                System.out.println();
             }
         }
     }

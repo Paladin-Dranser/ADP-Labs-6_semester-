@@ -7,7 +7,7 @@ package by.bsac.lab.individual;
  */
 import java.util.Scanner;
 
-public class Individual1 {
+public class Individual {
     public static void main(String[] args) {
         System.out.print("Enter three numbers: ");
         Scanner scanner = new Scanner(System.in);
